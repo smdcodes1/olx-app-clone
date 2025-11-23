@@ -1,0 +1,13 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.App{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.App::-webkit-scrollbar{
+  display: none;
+}
