@@ -1,1 +1,3 @@
 # olx-app-clone
+
+This project is an OLX Clone Application built using React for the front-end and Python Django for the back-end. The app allows users to view products, view product details, and manage their own listings. The Context API is used as a global state manager to handle user authentication, add data, and UI updates across the application. Django acts as the REST API, managing user accounts, product listings, image uploads, and CRUD operations. The application features a clean UI, category-based browsing, real-time updates, and secure login and registration, offering a smooth and efficient online marketplace experience similar to OLX.
