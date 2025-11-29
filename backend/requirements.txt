@@ -1,6 +1,6 @@
 
 asgiref
-Django
+Django>=4.2
 django-cors-headers
 djangorestframework
 djangorestframework-simplejwt
@@ -9,3 +9,4 @@ pytz
 sqlparse
 psycopg2-binary
 python-dotenv
+gunicorn
