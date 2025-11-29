@@ -1,11 +1,9 @@
-schemaVersion: "1.2"
+
+version: 1.0
 endpoints:
-    - name: public-api-be2
-      displayName: Public API
-      service:
-        basePath: /
-        port: 8000
-      type: REST
-      networkVisibilities:
-        - Project
-        - Public
+  - name: Public API
+    port: 8000
+    type: REST
+    networkVisibility: Public
+    context: /
+    # schemaFilePath: openapi.yaml
