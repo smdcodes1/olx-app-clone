@@ -5,7 +5,8 @@ import {ACCESS_TOKEN} from "./constants";
 const apiUrl = "/choreo-apis/olx-app-clone/backend/v1";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
+  baseURL: apiUrl
+  // import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
 
 });
 
